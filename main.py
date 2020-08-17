@@ -50,7 +50,7 @@ for cate in Category:
         if k <= k:
             print(img_2)
             for l in os.listdir(os.path.join(DIR_2,cate)):
-                    cat = Path(os.path.join(os.path.join(DIR_2, cate), l))
+                    cate = Path(os.path.join(os.path.join(DIR_2, cate), l))
             print(img_2)
             print("^^^^^^^^^^^^^^^^^^^^^^")
             print("type is " + str(cat.parent.name))
@@ -63,12 +63,12 @@ for cate in Category:
             print("........")
             print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
             if  cate == Category[0]:
-                test_labels.append(Category.index(str(cat.parent.name)))
+                test_labels.append(Category.index(str(cate.parent.name)))
                 print("**************************************")
                 print("found Id photo of Test")
                 print("**************************************")
             elif cate == Category[1]:
-                test_labels.append(Category.index(str(cat.parent.name)))
+                test_labels.append(Category.index(str(cate.parent.name)))
                 print("**************************************")
                 print("This photo is not an Id Test")
                 print("**************************************")
