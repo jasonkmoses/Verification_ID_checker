@@ -7,7 +7,7 @@ Checks if an id is an id or something else not completely finished yet AI still 
 # Requirements:
 
 *OS
-*Tensorflow kreas
+*Tensorflow keras
 *matplotlib
 *numpy 
 
